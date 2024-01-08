@@ -9,6 +9,6 @@ encode : Encode a provided string to Base64
 
 ## ToDo
 
-[] Add other decoding & encoding options
-[] Make defang utility more robust
-[] Add URL encoding/decoding
+[ ] Add other decoding & encoding options
+[ ] Make defang utility more robust
+[ ] Add URL encoding/decoding
