@@ -14,3 +14,4 @@ encode : Encode a provided string to Base64
 - [ ] Add other decoding & encoding options
 - [ ] Make defang utility more robust
 - [ ] Add URL encoding/decoding
+- [ ] Add option to encode/decode from file
