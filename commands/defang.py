@@ -8,7 +8,6 @@ import click
 @click.command()
 @click.argument("url", type=click.STRING)
 
-
 def defang(url):
 	'''This will defang a provided URL.'''
 	defang = url.replace("https", "hxxps")

@@ -11,6 +11,7 @@ import click
 import base64
 
 @click.group(help="A program to decode or encode strings.")
+@click.version_option("0.1.0", prog_name="cyutils")
 
 def cli():
 	pass

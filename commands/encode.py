@@ -8,13 +8,13 @@ import base64
 
 @click.command()
 @click.argument("string", type=click.STRING)
-@click.option("-o", "--output", is_flag=True, help="Output string to a file called encoded.txt in the current directory.")
+@click.option("-o", "--output", type=click.File(mode="r"), help="Output string to a file in the current directory.")
 
 def encode(string, output):
 	"""This will encode any provided string."""
 	string_bytes = string.encode("ascii")
 	if output:
-		file_object = open("encoded.txt", "w")
+		file_object = open(output + ".txt", "w")
 		b64_out = (base64.b64encode(string_bytes))
 		b64_file = file_object.write("String encodes to: " + b64_out.decode("ascii"))
 	else:
