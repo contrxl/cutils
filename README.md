@@ -4,7 +4,7 @@
 cyutils.py [OPTIONS] COMMAND [ARGS]
 ```
 
-Commands:
+Commands:  
 decode : Decode provided string from Base64  
 defang : Defang a provided URL  
 encode : Encode a provided string to Base64  
