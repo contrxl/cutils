@@ -1,8 +1,10 @@
 ## Usage
 
 ```
-cyutils.py [OPTIONS] COMMAND [ARGS]
+cyutils.py COMMAND [ARGS]
 ```
+
+Refer to "Examples.md" for more detailed use for each command.
 
 ## Commands  
 decode : Decode provided string from Base64  
@@ -11,7 +13,8 @@ encode : Encode a provided string to Base64
 
 ## ToDo
 
+- [ ] Add usage examples file
 - [ ] Add other decoding & encoding options
 - [ ] Make defang utility more robust
-- [ ] Add URL encoding/decoding
+- [x] Add URL encoding/decoding
 - [x] Add option to encode/decode from file
